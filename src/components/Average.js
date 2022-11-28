@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
 import Api from '../api/api'
 import '../styles/Average.css'
+import '../styles/CustomRecharts.css'
 import {
     LineChart,
     Line,
@@ -32,6 +33,7 @@ function Average() {
 
     return (
         <div className="average_container">
+            <h2>Durée moyenne des sessions</h2>
             <LineChart
                 width={230}
                 height={220}
@@ -45,7 +47,7 @@ function Average() {
                     tickLine={false}
                     tick={{ opacity: 0.5 }}
                 />
-                <YAxis hide={true} label="min" domain={[0, 'dataMax + 60']} />
+                <YAxis hide={true} label="min" domain={[0, 'dataMax + 20']} />
                 <Tooltip
                     wrapperStyle={{ left: -10 }}
                     cursor={{ stroke: 'rgba(0, 0, 0, 0.1)', strokeWidth: 100 }}

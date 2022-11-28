@@ -8,3 +8,12 @@
     color: white;
     border-radius: 5px;
 }
+
+.average_container h2 {
+    font-size: 16px;
+    opacity: 0.5;
+    position: absolute;
+    top: -9px;
+    left: 20px;
+    }
+

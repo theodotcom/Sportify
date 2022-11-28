@@ -31,7 +31,7 @@ function User() {
                             <Pie
                                 data={[user.data]}
                                 startAngle={90}
-                                endAngle={90 + user.data.todayScore * 360}
+                                endAngle={90 + (user.data.todayScore * 360)}
                                 innerRadius="60%"
                                 outerRadius="70%"
                                 fill="#8884d8"

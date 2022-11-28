@@ -23,23 +23,4 @@ class Api {
 }
 
 
-
-class ApiMock {
-    getPerformance(userId){
-        return Promise.resolve([])
-    }
-
-    getActivity(){
-        return Promise.resolve([])
-    }
-
-    getAverageSessions(){
-        return Promise.resolve([])
-    }
-
-    getUser(){
-        return Promise.resolve([])
-    }
-}
-
 export default Api;

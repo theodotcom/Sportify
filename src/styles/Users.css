@@ -21,10 +21,14 @@
         left: 25px;
     }
     .goal_content {
+        height: 114px;
+        background: white;
         text-align: center;
         position: absolute;
-        margin-left: 42px;
-        top: 60px;}
+        margin-left: 22px;
+        top: 54px;
+        width: 150px;
+        border-radius: 102px;}
     
         .goal_content  .percentage {
             font-size: 18px;
