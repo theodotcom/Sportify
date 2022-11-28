@@ -1,0 +1,19 @@
+.charts_container{
+    display: flex;
+flex-direction: column;
+}
+
+.charts_tryptic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.allInfos_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dashboard_main{
+    display: flex;
+}

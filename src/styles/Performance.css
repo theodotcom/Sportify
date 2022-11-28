@@ -1,0 +1,12 @@
+.performance_container{
+    background-color: black;
+    width: 238px;
+}
+
+.radar_bar_chart {
+    width: 238px;
+    height: 200px;
+    background-color: #282D30;
+    border-radius: 5px;
+  
+}

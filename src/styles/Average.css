@@ -1,0 +1,10 @@
+
+
+.average_container{
+    position: relative;
+    width: 238px;
+    height: 200px;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+}
