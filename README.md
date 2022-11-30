@@ -2,8 +2,6 @@
 1. Clone the repository:   
 `git clone https://github.com/theodotcom/P9-front-end-dashboard`
 
-# Project 9 - Front-end Dashboard
-
 This repo contains all the source code to run the micro API for the sports analytics dashboard SportSee.
 
 ## 1. General information
