@@ -9,9 +9,6 @@ import {
     XAxis,
     YAxis,
     Tooltip,
-    CartesianGrid,
-    Legend,
-    ResponsiveContainer,
 } from 'recharts'
 import { CustomTooltipAverage } from './CustomRecharts'
 import PropTypes from 'prop-types'
@@ -38,7 +35,7 @@ function Average() {
                 width={230}
                 height={220}
                 data={sessions}
-                margin={{ top: 5, right: 5, left: 5, bottom: 5 }}
+                margin={{ top: 5, right: 5, left: 5, bottom: 12 }}
             >
                 <XAxis
                     dataKey="day"
