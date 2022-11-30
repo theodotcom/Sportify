@@ -17,3 +17,7 @@ flex-direction: column;
 .dashboard_main{
     display: flex;
 }
+
+.dashboard-infos{
+    padding-left: 10px;
+}

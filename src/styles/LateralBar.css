@@ -3,7 +3,9 @@
     flex-direction: column;
     width: 90px;
     background-color: black;
-    margin-right: 85px;
+    height: 100vh;
+    padding-top: 80px;
+    padding: 80px 12px 0px 12px;
 }
 
 .lateralBar .logo{
