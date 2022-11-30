@@ -5,7 +5,6 @@ import {
     RadarChart,
     PolarGrid,
     PolarAngleAxis,
-    PolarRadiusAxis,
     ResponsiveContainer,
 } from 'recharts'
 import '../styles/Performance.css'

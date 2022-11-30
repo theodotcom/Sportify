@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
-import { PieChart, ResponsiveContainer, Pie, Cell } from 'recharts'
+import { PieChart, Pie, Cell } from 'recharts'
 import Api from '../api'
 import '../styles/Users.css'
 import PropTypes from 'prop-types'
@@ -14,7 +14,6 @@ function User() {
             const api = new Api()
             api.getUser(userId).then((data) => {
                 setUser(data)
-                console.log(data)
             })
         },
         [userId],

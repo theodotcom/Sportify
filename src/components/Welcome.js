@@ -13,7 +13,6 @@ function Welcome() {
             const api = new Api()
             api.getUser(userId).then((data) => {
                 setUser(data)
-                console.log(data)
             })
         },
         [userId],

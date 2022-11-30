@@ -18,7 +18,6 @@ import PropTypes from 'prop-types'
 function Activity() {
     const [activity, setActivity] = useState({})
     let { userId } = useParams()
-    console.log(activity.data)
     useEffect(() => {
         const api = new Api()
         api.getActivity(userId).then((data) => {
