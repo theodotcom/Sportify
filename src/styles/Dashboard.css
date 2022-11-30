@@ -6,7 +6,7 @@ flex-direction: column;
 .charts_tryptic{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .allInfos_container {
