@@ -23,3 +23,13 @@
 .rightSideInfos_container img{
 width: 60px;
 }
+
+.logos_container{
+   
+    height: 55vh;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

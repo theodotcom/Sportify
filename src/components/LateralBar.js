@@ -8,6 +8,7 @@ import '../styles/LateralBar.css'
 function LateralBar() {
   return (
     <div className="lateralBar">
+      <div className='logos_container'>
       <Link className="logo" to="/">
         <img src={iconZen} alt="icon"></img>
       </Link>
@@ -20,6 +21,7 @@ function LateralBar() {
       <Link className="logo" to="/">
         <img src={iconWeight} alt="icon"></img>
       </Link>  
+      </div>
      <p className='copyright'>
      Copiryght, SportSee 2020
      </p>
