@@ -1,5 +1,4 @@
 # Sportify - Analytics dashboard with Recharts and React
-![UI-design-Sportify-FR](https://user-images.githubusercontent.com/61735898/205507383-9c1fd023-dd68-439c-9406-a326c5bfaacb.png)
 
 ## Prerequisites
 
