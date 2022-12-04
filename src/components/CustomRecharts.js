@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 /**
  * Custom tooltip of BarChart
- * @param {object} {payload
+ * @param {array} {payload
  * @param {boolean} active} - Content tooltip object
  * @returns {Component} - React component
  */
@@ -22,7 +22,7 @@ export const CustomTooltip = ({ payload, active }) => {
 }
 
 CustomTooltip.propTypes = {
-    payload: PropTypes.object
+    payload: PropTypes.array
 }
 /**
  * Custom legend for the BarChart
@@ -43,7 +43,7 @@ CustomLegendText.propTypes = {
 
 /**
  * Custom tooltip of LineChart
- * @param {object} {payload
+ * @param {array} {payload
  * @param {boolean} active} - Content tooltip object
  * @returns {Component} - React component
  */
@@ -61,5 +61,5 @@ export const CustomTooltipAverage = ({ payload, active }) => {
 }
 
 CustomTooltipAverage.propTypes = {
-    payload: PropTypes.object
+    payload: PropTypes.array
 }
