@@ -36,6 +36,7 @@ function Average() {
     /** Get Average Sessions datas */
         const api = new Api()
         api.getAverageSessions(userId).then((data) => {
+                /** Change number to letters */
             const sessions = data.data.sessions.map((s) => {
                 return {...s, day: days[s.day]}
             })

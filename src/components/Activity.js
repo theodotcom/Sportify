@@ -14,11 +14,14 @@ import '../styles/Activity.css'
 import { CustomLegendText, CustomTooltip } from './CustomRecharts'
 import PropTypes from 'prop-types'
 
-
+/** Component to display bar charts' Activity
+ */
 function Activity() {
     const [activity, setActivity] = useState({})
     let { userId } = useParams()
     useEffect(() => {
+        /** Get Activity datas
+ */
         const api = new Api()
         api.getActivity(userId).then((data) => {
             setActivity(data)

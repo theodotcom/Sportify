@@ -12,12 +12,14 @@ import Api from '../api'
 
 import PropTypes from 'prop-types'
 
+/** Component to display User's radar performances
+ */
 function Performance() {
     const [performances, setPerformances] = useState([])
     let { userId } = useParams()
 
     useEffect(() => {
-             /** Get Performance datas */
+        /** Get Performance datas */
         const api = new Api()
         api.getPerformance(userId).then((data) => {
             /** Let kind matches with it's corresponding number */
