@@ -1,3 +1,6 @@
+/** Class to retrieve datas from 4 endpoints usign fetch method
+ */
+
 class Api {
 
     getPerformance(userId){

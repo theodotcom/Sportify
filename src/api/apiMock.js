@@ -1,3 +1,5 @@
+/** Class to retrieve datas from mocked datas
+ */
 class ApiMock {
     getPerformance(userId) {
         if (userId ==='18'){
