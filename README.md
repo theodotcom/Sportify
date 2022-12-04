@@ -1,4 +1,6 @@
-### Prerequisites
+# Sportify - Analytics dashboard with Recharts and React
+
+## Prerequisites
 
 - [NodeJS (**version 12.18**)](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/)
