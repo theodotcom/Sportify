@@ -13,6 +13,10 @@ import {
 import { CustomTooltipAverage } from './CustomRecharts'
 import PropTypes from 'prop-types'
 
+
+/** Create an object from whom 
+ * each number can be identified by the first letter of a day
+ */
 const days = {
     1: 'L',
     2: 'M',
@@ -23,11 +27,13 @@ const days = {
     7: 'D'
 }
 
-
+/** Component to display Line chart Average
+ */
 function Average() {
     const [sessions, setSessions] = useState([])
     let { userId } = useParams()
     useEffect(() => {
+    /** Get Average Sessions datas */
         const api = new Api()
         api.getAverageSessions(userId).then((data) => {
             const sessions = data.data.sessions.map((s) => {

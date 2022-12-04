@@ -17,8 +17,10 @@ function Performance() {
     let { userId } = useParams()
 
     useEffect(() => {
+             /** Get Performance datas */
         const api = new Api()
         api.getPerformance(userId).then((data) => {
+            /** Let kind matches with it's corresponding number */
             const perf = data.data.data.map((d) => {
                 let kind = data.data.kind[d.kind]
                 kind = kind.charAt(0).toUpperCase() + kind.slice(1)

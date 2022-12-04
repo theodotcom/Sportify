@@ -8,11 +8,14 @@ import carbsIcon from '../assets/carbsIcon.png'
 import proteinIcon from '../assets/proteinIcon.png'
 import '../styles/RightMainInfos.css'
 
+/** Component to display User's right main infos
+ */
 function RightMainInfos() {
     const [user, setUser] = useState({})
     let { userId } = useParams()
     useEffect(
         () => {
+            /** Get User main datas */
             const api = new Api()
             api.getUser(userId).then((data) => {
                 setUser(data)

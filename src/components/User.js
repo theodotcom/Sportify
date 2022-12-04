@@ -5,12 +5,14 @@ import Api from '../api'
 import '../styles/Users.css'
 import PropTypes from 'prop-types'
 
-
+/** Component to display User's Pie main infos
+ */
 function User() {
     const [user, setUser] = useState({})
     let { userId } = useParams()
     useEffect(
         () => {
+            /** Get User main datas */
             const api = new Api()
             api.getUser(userId).then((data) => {
                 setUser(data)

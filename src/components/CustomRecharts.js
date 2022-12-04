@@ -1,5 +1,12 @@
 import '../styles/CustomRecharts.css'
 
+
+/**
+ * Custom tooltip of BarChart
+ * @param {object} {payload
+ * @param {boolean} active} - Content tooltip object
+ * @returns {Component} - React component
+ */
 export const CustomTooltip = ({ payload, active }) => {
     if (active) {
         return (
@@ -13,7 +20,11 @@ export const CustomTooltip = ({ payload, active }) => {
     }
     return null
 }
-
+/**
+ * Custom legend for the BarChart
+ * @param {string} value - Legend value
+ * @returns {Component} - React component
+ */
 export const CustomLegendText = (value) => {
     return (
         <>
@@ -22,6 +33,14 @@ export const CustomLegendText = (value) => {
     )
 }
 
+
+
+/**
+ * Custom tooltip of LineChart
+ * @param {object} {payload
+ * @param {boolean} active} - Content tooltip object
+ * @returns {Component} - React component
+ */
 export const CustomTooltipAverage = ({ payload, active }) => {
     if (active) {
         return (
