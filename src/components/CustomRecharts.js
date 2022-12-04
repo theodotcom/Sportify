@@ -1,5 +1,5 @@
 import '../styles/CustomRecharts.css'
-
+import PropTypes from 'prop-types'
 
 /**
  * Custom tooltip of BarChart
@@ -20,6 +20,10 @@ export const CustomTooltip = ({ payload, active }) => {
     }
     return null
 }
+
+CustomTooltip.propTypes = {
+    payload: PropTypes.object
+}
 /**
  * Custom legend for the BarChart
  * @param {string} value - Legend value
@@ -32,7 +36,9 @@ export const CustomLegendText = (value) => {
         </>
     )
 }
-
+CustomLegendText.propTypes = {
+    value: PropTypes.object
+}
 
 
 /**
@@ -52,4 +58,8 @@ export const CustomTooltipAverage = ({ payload, active }) => {
         )
     }
     return null
+}
+
+CustomTooltipAverage.propTypes = {
+    payload: PropTypes.object
 }
