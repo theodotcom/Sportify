@@ -5,6 +5,7 @@ import '../styles/Welcome.css'
 import PropTypes from 'prop-types'
 
 /** Component to display User's welcome infos
+ * @returns {Component} - React component
  */
 function Welcome() {
     const [user, setUser] = useState({})

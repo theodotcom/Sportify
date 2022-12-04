@@ -28,6 +28,7 @@ const days = {
 }
 
 /** Component to display Line chart Average
+ * @returns {Component} - React component
  */
 function Average() {
     const [sessions, setSessions] = useState([])

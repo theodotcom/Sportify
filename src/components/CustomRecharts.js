@@ -2,7 +2,7 @@ import '../styles/CustomRecharts.css'
 import PropTypes from 'prop-types'
 
 /**
- * Custom tooltip of BarChart
+ * Custom tooltip of BarChart Activity
  * @param {array} {payload
  * @param {boolean} active} - Content tooltip object
  * @returns {Component} - React component
@@ -25,7 +25,7 @@ CustomTooltip.propTypes = {
     payload: PropTypes.array
 }
 /**
- * Custom legend for the BarChart
+ * Custom legend for the BarChart Activity
  * @param {string} value - Legend value
  * @returns {Component} - React component
  */
@@ -42,7 +42,7 @@ CustomLegendText.propTypes = {
 
 
 /**
- * Custom tooltip of LineChart
+ * Custom tooltip of LineChart Average
  * @param {array} {payload
  * @param {boolean} active} - Content tooltip object
  * @returns {Component} - React component

@@ -9,6 +9,7 @@ import proteinIcon from '../assets/proteinIcon.png'
 import '../styles/RightMainInfos.css'
 
 /** Component to display User's right main infos
+ * @returns {Component} - React component
  */
 function RightMainInfos() {
     const [user, setUser] = useState({})

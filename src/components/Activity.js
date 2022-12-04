@@ -15,6 +15,7 @@ import { CustomLegendText, CustomTooltip } from './CustomRecharts'
 import PropTypes from 'prop-types'
 
 /** Component to display bar charts' Activity
+ * @returns {Component} - React component
  */
 function Activity() {
     const [activity, setActivity] = useState({})

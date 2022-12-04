@@ -13,6 +13,7 @@ import Api from '../api'
 import PropTypes from 'prop-types'
 
 /** Component to display User's radar performances
+ * @returns {Component} - React component
  */
 function Performance() {
     const [performances, setPerformances] = useState([])

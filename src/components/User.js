@@ -6,6 +6,7 @@ import '../styles/Users.css'
 import PropTypes from 'prop-types'
 
 /** Component to display User's Pie main infos
+ * @returns {Component} - React component
  */
 function User() {
     const [user, setUser] = useState({})
