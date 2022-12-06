@@ -8,6 +8,7 @@ class Api {
             .then(data => data.json())
             .catch((error) => {
                 console.error('Error:', error);
+                
               });
     }
 

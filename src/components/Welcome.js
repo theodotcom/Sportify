@@ -21,6 +21,9 @@ function Welcome() {
         [userId],
         []
     )
+    if(!user.data){
+        return 'Impossible de recuperer vos données personnelles'
+    }
     return (
         user.data && (
             <div className="welcome_container">

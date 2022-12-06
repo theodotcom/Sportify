@@ -29,7 +29,7 @@ function Activity() {
         })
     }, [userId])
     if (!activity.data) {
-        return ''
+        return 'Impossible de recuperer vos données personnelles'
     }
     return (
         <div>

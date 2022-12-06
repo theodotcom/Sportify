@@ -46,7 +46,7 @@ function Average() {
     }, [userId])
 
     if (!sessions) {
-        return ''
+        return 'Impossible de recuperer vos donnéees personnelles'
     }
 
     return (

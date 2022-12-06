@@ -22,6 +22,9 @@ function User() {
         [userId],
         []
     )
+    if (!user.data){
+        return 'Impossible de recuperer vos données personnelles'
+    }
     return (
         user.data && (
             <div className="piechart">

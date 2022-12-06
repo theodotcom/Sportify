@@ -33,6 +33,9 @@ function Performance() {
         })
     }, [userId])
 
+    if(!performances){
+        return 'Impossible de recuperer vos données personnelles'
+    }
     return (
         performances && (
             <>
